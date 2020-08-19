@@ -1,0 +1,21 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+//for box sizing id=f we have an element and we assign it 200px 
+// its gonna get biger but after setting it to border-box it will just 
+//retaing the same size 
+
+$mainBlack: #222;
+$mainGreen: #82b340;
+$mainWhite: #fff;
+$mainGrey: #ececec;
+$mainTransition: all .3s linear;
+
+body {
+  font-family: 'Open Sans', sans-serif;
+  background: $mainWhite;
+  color: $mainBlack;
+}
+
